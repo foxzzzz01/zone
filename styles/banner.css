@@ -18,13 +18,15 @@
 .banner__img {
     margin-bottom: 40px;
     margin-right: -40px;
+    max-width: 680px;
+    width: 100%;
 }
 
 
 .banner__title {
     height: 168px;
     font-family: 'DM Sans';
-    font-size: 58px;
+    font-size: clamp(1.875rem, 1.326rem + 2.75vw, 3.625rem);
     font-weight: 700;
     line-height: 84px;
     background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
@@ -88,4 +90,32 @@
 
 .banner__btn2 span {
     font-size: 34px;
+}
+
+@media screen and (max-width: 1210px) {
+    .banner{
+        flex-direction: column;
+        margin-top: 250px;
+        margin-bottom: 150px;
+    }
+    .banner__img-img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 580px) {
+    .banner{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .banner{
+        margin-top: 80px;
+    }
+    .banner__info{
+        gap: 10px;
+    }
+    .banner__title{
+        line-height: 50px;
+    }
 }

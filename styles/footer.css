@@ -120,3 +120,13 @@
     align-items: center;
     gap: 50px;
 }
+
+@media screen and (max-width: 1141px) {
+    .footer__nav{
+        flex-wrap: wrap;
+    }
+    .footer__bottom-nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+}

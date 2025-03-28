@@ -26,7 +26,7 @@
 
 .projects__info-title {
     font-family: 'DM Sans';
-    font-size: 42px;
+    font-size: clamp(1.563rem, 1.229rem + 1.67vw, 2.625rem);
     font-weight: 700;
     line-height: 54.68px;
     color: #fff;
@@ -38,6 +38,12 @@
     font-weight: 200;
     line-height: 26px;
     color: #fff;
+}
+
+
+.projects__img{
+    max-width: 650px;
+    width: 100%;
 }
 
 .projects__info-btn {
@@ -59,4 +65,16 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1360px) {
+    .projects__block{
+        flex-direction: column;
+    }
+    .projects{
+        gap: 150px;
+    }
+    .projects__img{
+        width: 100%;
+    }
 }

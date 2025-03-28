@@ -41,3 +41,34 @@
     align-items: center;
     color: #fff;
 }
+
+@media screen and (max-width: 1610px) {
+    .header__nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 687px) {
+    .header__nav-list{
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 490px) {
+    .header__nav-list{
+        gap: 15px;
+    }
+    .header__nav-list_item a {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 396px) {
+    .header__nav-list{
+        gap: 10px;
+    }
+    .header__nav-list_item a {
+        font-size: 8px;
+    }
+    .header__nav-list_items a{
+        padding: 10px 10px;
+    }
+}

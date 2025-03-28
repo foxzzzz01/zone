@@ -86,3 +86,13 @@ text-transform: uppercase;
     align-items: center;
     gap: 12px;
 }
+
+
+@media screen and (max-width: 1435px) {
+    .team__text{
+        padding-bottom: 100px;
+    }
+    .team__cards{
+        flex-wrap: wrap;
+    }
+}
