@@ -1,0 +1,88 @@
+.team {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.team__title {
+    font-family: 'DM Sans';
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.team__text {
+    max-width: 480px;
+    width: 100%;
+    height: 50px;
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.83px;
+    color: #fff;
+    text-align: center;
+}
+
+.team__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.team__cards-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 270px;
+    height: 266px;
+    border-radius: 34px;
+    border: 1px;
+    background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+    border: 1px solid;
+    border-image-source: linear-gradient(97.12deg, rgba(255, 255, 255, 0.08) -3.52%, rgba(255, 255, 255, 0.07) 100.35%);
+    box-shadow: 0px 22px 18px 0px #0000000D;
+}
+
+.user__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.user__img{
+    height: 90px;
+}
+
+
+.user_name{
+    font-family: 'DM Sans';
+font-size: 28px;
+font-weight: 500;
+color: #fff;
+
+}
+
+.user_prof{
+font-family: 'DM Sans';
+font-size: 16px;
+font-weight: 400;
+color: #fff;
+text-transform: uppercase;
+}
+
+.user__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}

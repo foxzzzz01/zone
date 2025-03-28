@@ -1,0 +1,122 @@
+.footer {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer__nav-contacts {
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Rubik';
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer__nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__nav-list_item a,
+.footer__bottom-nav_list-item a {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFFCC;
+    transition: 0.3s;
+}
+
+.footer__nav-list_item a:hover,
+.footer__bottom-nav_list-item a:hover{
+    background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer__nav-list_item span a {
+    font-weight: 500;
+}
+
+.footer__nav-contacts_medias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__nav-contacts_medias-item {
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border: 1px;
+    background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid;
+    border-image-source: linear-gradient(97.12deg, rgba(255, 255, 255, 0.08) -3.52%, rgba(255, 255, 255, 0.07) 100.35%);
+    border-radius: 50%;
+
+}
+
+.footer__bottom {
+    padding: 35px 0;
+    position: relative;
+}
+
+.footer__bottom::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    max-width: 1440px;
+    width: 100%;
+    height: 1px;
+    background: #969696;
+
+}
+
+
+
+.footer__bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer__bottom-nav_text {
+    font-family: 'Rubik';
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFFCC;
+
+}
+
+.footer__bottom-nav_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
